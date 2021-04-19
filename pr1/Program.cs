@@ -6,7 +6,14 @@ namespace pr1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Dog Dog1 = new Dog();
+            Dog1.NAME = "Apple";
+            Dog1.BREED = "Taksa";
+            Dog1.AGE = 24.99F;
+            Dog1.ShowName();
+            Dog1.ShowAmount();
+            Dog1.ShowCost();
         }
     }
 }
+
